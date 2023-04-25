@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "ts-node-dev ./Src/Server.ts",
-    "start": "node ./Dist/Server.js",
+    "serve": "ts-node-dev ./src/server.ts",
+    "start": "node ./dist/server.js",
     "build": "npm i && npx tsc -p tsconfig.json"
   },
   "keywords": [],
